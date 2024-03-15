@@ -100,7 +100,6 @@ namespace JuegoNumeroAcertado
                 Random random = new Random();
                 numAleatorio = random.Next(1, 101);
                 numeroBuscado = numAleatorio;
-                //control = false;
                 tBoxNumeroIngresado.Text = "";
                 lblIntentos.Text = "";
                 lblPista.Text = "";
