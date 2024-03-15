@@ -58,7 +58,7 @@ namespace JuegoNumeroAcertado
                             contIntentos++;
                             tBoxNumeroIngresado.Text = "";
                             lblIntentos.Text = "Intentos: " + contIntentos;
-                            MessageBox.Show("busco el "+ numeroBuscado + " intentos: "+contIntentos);
+                            //MessageBox.Show("busco el "+ numeroBuscado + " intentos: "+contIntentos);
                         }
                         else
                         {
